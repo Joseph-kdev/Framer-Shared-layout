@@ -1,2 +1,2 @@
 # Framer-Shared-layout
-Created with CodeSandbox
+A simple component I built while learning about shared layouts with Motion.

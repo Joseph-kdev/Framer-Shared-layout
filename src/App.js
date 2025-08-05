@@ -101,6 +101,9 @@ function SharedLayout() {
                     <motion.p
                       layoutId={`desc-${activeGame.title}`}
                       className="game-description"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
                     >
                       {activeGame.description}
                     </motion.p>
@@ -158,6 +161,9 @@ function SharedLayout() {
                 <motion.p
                   layoutId={`desc-${game.description}`}
                   className="game-description"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
                 >
                   {game.description}
                 </motion.p>
